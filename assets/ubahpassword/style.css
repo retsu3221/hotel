@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato ital';
+}
+html {
+    /* background-color: #333; */
+}
+.box {
+    width: 100%;
+    /* height: 1000vh; */
+    /* background-color: #ccc; */
+    
+}
+.cont {
+    width: 1200px;
+    /* background-color: aliceblue; */
+    margin: 0 auto;
+}
+
+/* Nav */
+.cont nav {
+    display: flex;
+    padding: 20px 0;
+    /* width: 100px; */
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+}
+.list ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.list ul li {
+    list-style: none;
+}
+.list ul li::after {
+    content: '';
+    width: 0;
+    height: 1.3px;
+    display: block;
+    transition: 0.6s ease;
+    background-color: red;
+}
+.list ul li:hover::after {
+    width: 100%;
+}
+.list ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.logo {
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+.logo a {
+    text-decoration: none;
+    color: #333 ;
+}
+/* Nav end */
+
+
+
+/* Content awal */
+.content-first {
+    background-color: rgba(255, 166, 0, 0.086);
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 2rem; */
+}
+.content-first h2 {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.content-first p {
+    letter-spacing: 3px;
+}
+.content-first p span {
+    color: #605858a4;
+}
+/* Content awal end */
+
+
+
+/* Second Content Begin */
+.conta {
+    width: 800px;
+    margin: 0 auto;
+    /* background-color: rgba(255, 166, 0, 0.086); */
+}
+.second-content {
+    height: 480px;
+    margin: 30px 0px;
+    
+}
+.second-content h4 {
+    padding: 10px 10px;
+}
+.content-booking {
+    padding: 40px 0;
+    display: flex;
+    gap: 40px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.content-booking img {
+    height: 110px;
+}
+.desc-booking {
+    display: flex;
+    flex-direction: column; 
+    /* gap: 10px; */
+}
+.desc-booking h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.desc-booking p {
+    color: #00000072;
+}
+
+.second-content .tgl-booking .field-check {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.field-check .field p {
+    font-weight: 550;
+}
+.field-check .field p span {
+    color: red;
+}
+.field-check input[type="date"] {
+    height: 40px;
+    width: 30vh;
+    padding: 10px;
+    color: #00000039;
+    border-radius: 5px;
+    border: 1px solid #00000039;
+}
+.field-check select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 8vh;
+    /* padding: 10px; */
+    /* color: #00000039; */
+    border-radius: 5px;
+    border: 1px solid #00000039;
+}
+
+.second-content .tombol {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.second-content .tombol input[type="button"] {
+    border-radius: 0;
+    font-weight: bold;
+    height: 6vh;
+}
+.tgl-booking select,option {
+    cursor: pointer;
+}
+/* Second Content End */
+
+/* footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(145, 124, 17);
+    color: #fff;
+    text-align: center;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-text {
+    font-size: 20px;
+}
+
+/* Footer End */

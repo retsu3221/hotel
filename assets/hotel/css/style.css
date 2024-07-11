@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: #f9f6f2;
+}
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lato ital';
+}
+.box {
+    width: 100%;
+    /* height: 0vh; */
+    /* background-color: green; */
+}
+.cont {
+    width: 1200px;
+    /* background-color: aliceblue; */
+    margin: 0 auto;
+}
+
+/* Nav */
+.cont nav {
+    display: flex;
+    padding: 20px 0;
+    /* width: 100px; */
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+}
+.list ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.list ul li {
+    list-style: none;
+}
+.list ul li::after {
+    content: '';
+    width: 0;
+    height: 1.3px;
+    display: block;
+    transition: 0.6s ease;
+    background-color: red;
+}
+.list ul li:hover::after {
+    width: 100%;
+}
+.list ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.logo {
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+.logo a {
+    text-decoration: none;
+    color: #333 ;
+}
+/* Nav end */
+
+
+
+
+
+
+/* Content Start */
+.content-box {
+    /* background-color: aliceblue; */
+    height: 95vh;
+}
+.content {
+    /* background-color: green; */
+
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Content End */
+
+/* content1 start */
+.offer-title {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+}
+.offer-one h1 {
+    display: flex;
+    font-size: 42px;
+    font-weight: 900;
+}
+.offer-detail {
+    width: 50%;
+}
+.offer-detail p{
+    font-size: 15px;
+}
+.content button {
+    border: none;
+    background-color: #fff;
+}
+.content button a {
+    width: 200px;
+    border-radius: px;
+    font-size: 24px;
+}
+/* Content1 End */
+
+/* Content2 Start */
+.gambar img {
+    height: 120px;
+    transition: 0.5s;
+}
+.hello {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    width: 500px;
+    /* background-color: red; */
+    
+}
+.gambar img:hover {
+    display: flex;
+    height: 125px;
+}
+.hello:hover {
+    /* gap: 0; */
+}
+
+/* Content2 End */
+
+/* footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(145, 124, 17);
+    color: #fff;
+    text-align: center;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-text {
+    font-size: 20px;
+}
+
+/* Footer End */
